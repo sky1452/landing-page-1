@@ -4,6 +4,7 @@ import Project from "./components/second";
 import Work from "./components/third";
 import Use from "./components/fourth";
 import Customize from "./components/fifth";
+import Choose from "./components/sixth";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Work />
       <Use />
       <Customize />
+      <Choose />
     </div>
   )
 }

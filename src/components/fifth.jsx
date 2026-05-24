@@ -54,7 +54,7 @@ function Customize() {
         </div>
         <div className="mx-auto flex flex-col items-center lg:mx-0 lg:items-start lg:block">
           {/* TITLE MOBILE */}
-          <h1 className="block text-center w-72 text-[40px] font-[Inter] font-bold leading-11 tracking-[-0.02em] md:hidden">
+          <h1 className=" text-center w-72 text-[40px] font-[Inter] font-bold leading-11 tracking-[-0.02em] md:hidden">
             Customise it
             <br />
             <span className="relative inline-block">
@@ -114,11 +114,11 @@ function Customize() {
           </h1>
 
           {/* DESCRIPTION MOBILE*/}
-          <p className="hidden mx-auto mt-6 mb-15 text-center font-normal font-[Montserrat] text-[18px] leading-7.5 md:hidden">
+          <p className=" mx-auto mt-6 mb-15 text-center font-normal font-[Montserrat] text-[18px] leading-7.5 md:hidden">
             Customise the app with plugins, custom themres and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.          </p>
 
             {/* DESCRIPTION md*/}
-          <p className=" mx-auto w-182 mt-6 mb-15 text-center font-normal font-[Inter] text-[18px] leading-7.5 lg:hidden">
+          <p className="hidden mx-auto  mt-6 mb-15 text-center font-normal font-[Inter] text-[18px] leading-7.5 md:block lg:hidden">
             Customise the app with plugins, custom themres and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.          </p>
 
           {/* DESCRIPTION LG */}
