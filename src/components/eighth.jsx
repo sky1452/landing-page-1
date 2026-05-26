@@ -15,7 +15,7 @@ function Your_Data() {
     <section className="relative w-full overflow-hidden bg-white px-4 py-20 text-black md:px-5 md:py-35 lg:px-8 lg:py-35 xl:px-8 xl:py-35">
 
       {/* CONTENT CONTAINER */}
-      <div className="relative z-10 mx-auto flex w-full flex-col items-center lg:flex-row lg:items-center ">
+      <div className="relative z-10 mx-auto flex w-full flex-col items-center lg:flex-row lg:items-center xl:justify-between ">
         {/* IMAGE COLUMN */}
         <div className=" mx-auto mb-25 md:mb-25 lg:mb-0 lg:mx-0 block md:hidden">
           <img
@@ -76,7 +76,7 @@ function Your_Data() {
           </h1>
 
           {/* TITLE XL */}
-          <h1 className="hidden text-left w-175 text-[72px] font-bold leading-auto tracking-[-0.02em] xl:block">
+          <h1 className="hidden text-left w-164.25 text-[72px] font-bold leading-auto tracking-[-0.02em] xl:block">
             100%&nbsp;
             <span className="relative inline-block">
               <img
