@@ -5,7 +5,9 @@ import Work from "./components/third";
 import Use from "./components/fourth";
 import Customize from "./components/fifth";
 import Choose from "./components/sixth";
-
+import Your_Work from "./components/seventh";
+import Your_Data from "./components/eighth";
+import Our_sponsors from "./components/nineth";
 function App() {
   return (
     <div className="">
@@ -16,6 +18,9 @@ function App() {
       <Use />
       <Customize />
       <Choose />
+      <Your_Work />
+      <Your_Data />
+      <Our_sponsors />
     </div>
   )
 }
