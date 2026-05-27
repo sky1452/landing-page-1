@@ -10,6 +10,8 @@ import Choose from "./components/sixth";
 import Your_Work from "./components/seventh";
 import Your_Data from "./components/eighth";
 import Our_sponsors from "./components/nineth";
+import Work_With from "./components/tenth";
+import What_Our from "./components/eleven";
 
 const fadeUp = {
   hidden: {
@@ -80,6 +82,14 @@ function App() {
 
       <AnimatedSection>
         <Our_sponsors />
+      </AnimatedSection>
+
+      <AnimatedSection>
+        <Work_With />
+      </AnimatedSection>
+
+      <AnimatedSection>
+        <What_Our />
       </AnimatedSection>
     </div>
   );

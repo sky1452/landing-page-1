@@ -15,7 +15,7 @@ function Your_Data() {
     <section className="relative w-full overflow-hidden bg-white px-4 py-20 text-black md:px-5 md:py-35 lg:px-8 lg:py-35 xl:px-8 xl:py-35">
 
       {/* CONTENT CONTAINER */}
-      <div className="relative z-10 mx-auto flex w-full flex-col items-center lg:flex-row lg:items-center xl:justify-between ">
+      <div className="relative z-10 mx-auto flex w-full flex-col items-center lg:flex-row lg:items-center lg:justify-between ">
         {/* IMAGE COLUMN */}
         <div className=" mx-auto mb-25 md:mb-25 lg:mb-0 lg:mx-0 block md:hidden">
           <img
@@ -107,7 +107,7 @@ function Your_Data() {
             Read more <ArrowRight size={14} />
           </button>
         </div>
-        <div className="mb-25 md:mb-25 lg:mb-0 lg:mx-0">
+        <div className="hidden mb-25 md:mb-25 lg:mb-0 lg:mx-0 lg:block xl:block">
           <img
             src={Circle}
             alt=""
