@@ -49,9 +49,9 @@ function App() {
     <div>
       <Header />
 
-      <AnimatedSection>
+     
         <GetMore />
-      </AnimatedSection>
+      
 
       <AnimatedSection>
         <Project />
