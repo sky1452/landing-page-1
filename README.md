@@ -1,18 +1,31 @@
-# React + Vite
+# Whitepace Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Адаптивный SaaS-лендинг, разработанный по макету из Figma.
 
-Currently, two official plugins are available:
+## Ссылки
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 [Live Demo](https://landing-page-1-one-liart.vercel.app)
 
-## React Compiler
+🎨 [Figma Design](https://www.figma.com/design/HgK7gopD5RypgR2TU04gjR/Whitepace---SaaS-Landing-Page--Community-?node-id=9-101&t=gunY2UdAG3zAWGxf-1)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Скриншоты
 
-Note: This will impact Vite dev & build performances.
+![Desktop version](./image.png)
+![Mobile version](./image2.png)
+![Tablet version](./image3.png)
 
-## Expanding the ESLint configuration
+## О проекте
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Данный проект представляет собой pixel-perfect реализацию SaaS-лендинга Whitepace по готовому макету из Figma. Проект разработан с использованием React, JavaScript и Tailwind CSS. Основной целью было максимально точно воспроизвести оригинальный дизайн и реализовать адаптивный пользовательский интерфейс для различных устройств.
+
+## Локальный запуск
+
+```bash
+git clone https://github.com/sky1452/landing-page-1.git
+
+cd landing-page-1
+
+npm install
+
+npm run dev
+```
