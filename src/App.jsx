@@ -1,19 +1,19 @@
 import { motion } from "framer-motion";
 
 import Header from "./components/Header";
-import GetMore from "./components/first";
-import Project from "./components/second";
-import Work from "./components/third";
-import Use from "./components/fourth";
-import Customize from "./components/fifth";
-import Choose from "./components/sixth";
-import Your_Work from "./components/seventh";
-import Your_Data from "./components/eighth";
-import Our_sponsors from "./components/nineth";
-import Work_With from "./components/tenth";
-import What_Our from "./components/eleven";
-import Try_Whitepace_today from "./components/twelfth";
-import Whitepace from "./components/thirteenth";
+import GetMore from "./components/HeroSection";
+import Project from "./components/ProjectManagementSection";
+import Work from "./components/CollaborationSection";
+import Use from "./components/ExtensionSection";
+import Customize from "./components/CustomizationSection";
+import Choose from "./components/PricingSection";
+import Your_Work from "./components/WorkEverywhereSection";
+import Your_Data from "./components/DataSecuritySection";
+import Our_sponsors from "./components/SponsorsSection";
+import Work_With from "./components/IntegrationsSection";
+import What_Our from "./components/TestimonialsSection";
+import Try_Whitepace_today from "./components/CallToActionSection";
+import Whitepace from "./components/Footer";
 const fadeUp = {
   hidden: {
     opacity: 0,
