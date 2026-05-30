@@ -12,7 +12,7 @@ import { ArrowRight } from "lucide-react";
 
 function Project() {
   return (
-    <section className="relative w-full overflow-hidden bg-white px-4 pt-20 text-black md:px-5 md:pt-35 lg:px-8 lg:py-35 xl:px-8 xl:pt-35 xl:pb-25">
+    <section className="relative w-full overflow-hidden bg-white px-4 pt-20 text-black md:px-5 md:pt-35 lg:px-8 lg:py-35 xl:px-8 xl:pt-35 xl:pb-25 2xl:px-55 ">
       {/* BACKGROUND */}
       <div className="pointer-events-none absolute inset-0">
         <img

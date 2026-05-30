@@ -2,14 +2,11 @@ import Apple from "../assets/Apple.svg";
 import Google from "../assets/Google.svg";
 import Microsoft from "../assets/Microsoft.svg";
 import Slack from "../assets/Slack.svg";
-import under_md from "../assets/under_md.svg";
-import under_lg from "../assets/under_lg.svg";
-import under_xl from "../assets/under_xl.svg";
 import under from "../assets/under.svg";
 
 function Our_sponsors() {
   return (
-    <section className="relative w-full overflow-hidden bg-white px-4 py-20 text-black md:px-5 md:py-35 lg:px-8 lg:py-35 xl:px-8 xl:py-35">
+    <section className="relative w-full overflow-hidden bg-white px-4 py-20 text-black md:px-5 md:py-35 lg:px-8 lg:py-35 xl:px-8 xl:py-35 2xl:px-55 2xl:py-35">
 
       {/* CONTENT CONTAINER */}
       <div className="relative z-10 mx-auto flex w-full flex-col items-center lg:items-center ">

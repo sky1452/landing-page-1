@@ -1,19 +1,14 @@
-import Element2 from "../assets/Element2.svg";
-import Element2_md from "../assets/Element2_md.svg";
-import Element2_lg from "../assets/Element2_lg.svg";
-import Element2_xl from "../assets/Element2_lg.svg";
 import under_md from "../assets/under_md.svg";
 import th_under_lg from "../assets/th_under_lg.svg";
 import under_xl from "../assets/under_xl.svg";
 import under from "../assets/under.svg";
-import Asset from "../assets/Asset.svg";
 import WorkI from "../assets/Work.svg";
 
 import { ArrowRight } from "lucide-react";
 
 function Work() {
   return (
-    <section className="relative w-full overflow-hidden pb-20 bg-white px-4 text-black md:px-5 lg:px-8  lg:pb-35 xl:px-8 xl:pb-25">
+    <section className="relative w-full overflow-hidden pb-20 bg-white px-4 text-black md:px-5 lg:px-8  lg:pb-35 xl:px-8 xl:pb-25 2xl:px-55 2xl:pb-35">
       {/* BACKGROUND 
       <div className="pointer-events-none absolute inset-0">
         <img src={Element2} alt="" className="absolute inset-0 top-12 -left-8 h-52.25 w-42  opacity-100 md:hidden" />

@@ -1,18 +1,12 @@
-import Element from "../assets/Element.svg";
-import Element_md from "../assets/Element_md.svg";
-import Element_lg from "../assets/Element_lg.svg";
 import Asset from "../assets/Asset.svg";
 import under_md from "../assets/under_md.svg";
-import under_lg from "../assets/under_lg.svg";
-import under_xl from "../assets/under_xl.svg";
 import under from "../assets/under.svg";
 import under2 from "../assets/use_under_lg.svg";
-import u_xl from "../assets/u_xl.svg";
 import { ArrowRight } from "lucide-react";
 
 function Use() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#043873] px-4 py-20 text-white md:px-8 md:py-25 lg:px-8 lg:py-35 xl:px-8 xl:py-35">
+    <section className="relative w-full overflow-hidden bg-[#043873] px-4 py-20 text-white md:px-8 md:py-25 lg:px-8 lg:py-35 xl:px-8 xl:py-35 2xl:px-55 2xl:py-35">
       {/* BACKGROUND 
       <div className="pointer-events-none absolute inset-0">
         <img

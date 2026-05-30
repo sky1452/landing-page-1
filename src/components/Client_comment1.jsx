@@ -30,11 +30,11 @@ function Client_comment1() {
           className="h-16.25 w-16.25 rounded-full mb-4 md:w-20 md:h-20 lg:w-23.5 lg:h-23.5"
         />
         {/*Author name and description*/}
-        <div className="flex flex-col ">
+        <div className="flex flex-col w-62">
           <h3 className="font-bold text-[18px] leading-9 tracking-[-0.02em] mb-3.75 text-[#043873] md:text-[24px]">
             Oberon Shaw, MCH
           </h3>
-          <p className="text-[16px] w-62 leading-7.5 tracking-[-0.02em] md:w-full lg:w-43.5 lg:leading-5 ">
+          <p className="text-[16px]  leading-7.5 tracking-[-0.02em] md:w-full lg:w-43.5 lg:leading-5 ">
             Head of Talent Acquisition, North America
           </p>
         </div>

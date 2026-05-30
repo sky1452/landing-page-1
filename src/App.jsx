@@ -12,7 +12,8 @@ import Your_Data from "./components/eighth";
 import Our_sponsors from "./components/nineth";
 import Work_With from "./components/tenth";
 import What_Our from "./components/eleven";
-
+import Try_Whitepace_today from "./components/twelfth";
+import Whitepace from "./components/thirteenth";
 const fadeUp = {
   hidden: {
     opacity: 0,
@@ -90,6 +91,14 @@ function App() {
 
       <AnimatedSection>
         <What_Our />
+      </AnimatedSection>
+
+      <AnimatedSection>
+        <Try_Whitepace_today />
+      </AnimatedSection>
+
+      <AnimatedSection>
+        <Whitepace />
       </AnimatedSection>
     </div>
   );

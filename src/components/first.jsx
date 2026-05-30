@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 function GetMore() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#043873] px-4 pt-20 text-white md:px-5 md:pt-35 lg:px-8 lg:py-35 xl:px-8 xl:py-25">
+    <section className="relative w-full overflow-hidden bg-[#043873] px-4 pt-20 text-white md:px-5 md:pt-35 lg:px-8 lg:py-35 xl:px-8 xl:py-25 2xl:px-55 2xl:py-35">
       {/* BACKGROUND */}
       <div className="pointer-events-none absolute inset-0">
         <img

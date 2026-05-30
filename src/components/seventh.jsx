@@ -1,22 +1,12 @@
-import Element from "../assets/Element.svg";
-import Element_md from "../assets/Element_md.svg";
-import Element_lg from "../assets/Element_lg.svg";
-import Asset from "../assets/Asset.svg";
-import under_md from "../assets/under_md.svg";
-import under_lg from "../assets/under_lg.svg";
-import under_xl from "../assets/under_xl.svg";
-import under from "../assets/under.svg";
-import under2 from "../assets/use_under_lg.svg";
-import u_xl from "../assets/u_xl.svg";
 import Blue from "../assets/Blue.svg";
 import Blue_md from "../assets/Blue_md.svg";
-import { ArrowRight } from "lucide-react";
+import Blue_lg from "../assets/Blue_lg.svg";
 import Element3_md from "../assets/Element3_md.svg";
 import Element3_xl from "../assets/Element_xl.svg";
-import Blue_lg from "../assets/Blue_lg.svg";
+import { ArrowRight } from "lucide-react";
 function Your_Work() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#043873] pt-25 pb-35 px-4 text-white md:px-5 md:py-35 lg:px-8 lg:py-35 xl:px-8 xl:py-35">
+    <section className="relative w-full overflow-hidden bg-[#043873] pt-25 pb-35 px-4 text-white md:px-5 md:py-35 lg:px-8 lg:py-35 xl:px-8 xl:py-35 2xl:px-55 2xl:py-35">
       <div className="pointer-events-none absolute inset-0">
         <img
           src={Element3_md}
@@ -48,18 +38,14 @@ function Your_Work() {
           <h1 className="hidden text-left text-[54px] font-bold leading-11 tracking-[-0.02em] md:block lg:hidden">
             Your work, everywhere <br />
             <span className="relative inline-block">
-              <img
-                src={Blue_md}
-                alt=""
-                className="absolute -bottom-5 z-0"
-              />
+              <img src={Blue_md} alt="" className="absolute -bottom-5 z-0" />
               <span className="relative z-10">you are</span>
             </span>
           </h1>
 
           {/* TITLE LG */}
           <h1 className="hidden text-left text-[64px] w-162.5 font-bold leading-auto tracking-[-0.02em] lg:block xl:hidden">
-            Your work, everywhere&nbsp; 
+            Your work, everywhere&nbsp;
             <span className="relative inline-block">
               <img src={Blue_lg} alt="" className="absolute top-14 z-0" />
               <span className="relative z-10">you are</span>
@@ -68,7 +54,7 @@ function Your_Work() {
 
           {/* TITLE XL */}
           <h1 className="hidden text-center w-266 text-[72px] font-bold leading-auto tracking-[-0.02em] xl:block">
-          Your work, everywhere&nbsp; 
+            Your work, everywhere&nbsp;
             <span className="relative inline-block">
               <img src={Blue_lg} alt="" className="absolute top-14 z-0" />
               <span className="relative z-10">you are</span>
