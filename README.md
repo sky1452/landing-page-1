@@ -11,8 +11,9 @@
 ## Скриншоты
 
 ![Desktop version](./image.png)
-![Mobile version](./image-1.png)
 ![Tablet version](./image-2.png)
+![Mobile version](./image-1.png)
+
 
 ## О проекте
 
