@@ -24,7 +24,7 @@
 ## Локальный запуск
 
 ```bash
-git clone https://github.com/sky1452/landing-page-1.git
+git clone https://github.com/sky1452/SaaS-landing.git
 
 cd landing-page-1
 
